@@ -70,11 +70,11 @@ body {
 .text {
   position: absolute;
   font : "Montserrat";
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
   line-height: 25px;
   top: 25px;
-  left: 20px;
+  left: 30px;
   color: #003049;
   justify-content: center;
   align-items: center;
