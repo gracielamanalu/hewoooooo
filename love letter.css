@@ -74,8 +74,8 @@ body {
   text-align: center;
   line-height: 25px;
   top: 25px;
-  left: 45px;
-  right: 45px;
+  left: 40px;
+  right: 40px;
   color: #003049;
   justify-content: center;
   align-items: center;
@@ -238,72 +238,6 @@ body {
   animation: scale 3s linear infinite;
   z-index: -1;
 }
-
-/* Pastikan tampilan tetap proporsional di semua ukuran layar */
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #fae1dd;
-  overflow: hidden; /* Hindari scroll horizontal */
-  margin: 0;
-}
-
-/* Container agar tidak terlalu besar di HP */
-.container {
-  max-width: 90vw;
-  max-height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-/* Perbaikan untuk layar kecil (HP & Tablet) */
-@media screen and (max-width: 768px) {
-  .envelope {
-    width: 80%;
-    height: auto;
-  }
-
-  .card {
-    width: 85%;
-    height: auto;
-    font-size: 14px; /* Kecilkan font agar lebih pas */
-  }
-
-  .text {
-    font-size: 14px; /* Menyesuaikan teks */
-    line-height: 18px;
-    left: 10px;
-    right: 10px;
-  }
-
-  .heart {
-    width: 20px;
-    height: 20px;
-    top: 80px;
-  }
-}
-
-/* Tambahan untuk layar HP kecil */
-@media screen and (max-width: 480px) {
-  .envelope {
-    width: 95%;
-  }
-
-  .card {
-    width: 90%;
-    font-size: 12px;
-  }
-
-  .text {
-    font-size: 12px;
-    line-height: 16px;
-  }
-}
-
 
 @keyframes scale {
   0%,
